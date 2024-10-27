@@ -1,0 +1,35 @@
+# Django Framework
+Django==4.2.3
+
+# Machine Learning Libraries
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.2.2
+statsmodels==0.14.0
+tensorflow==2.12.0  # If you're using TensorFlow for ML models
+# or
+# keras==2.12.0  # If you're using Keras
+
+# Data Visualization (if applicable)
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Jupyter Notebook (if you need to run notebooks)
+notebook==6.5.2
+
+# Other Useful Libraries
+requests==2.30.0  # For making API calls if needed
+beautifulsoup4==4.12.2  # For web scraping if needed
+
+# Database Support (if applicable)
+psycopg2==2.9.5  # PostgreSQL adapter
+# or
+# mysqlclient==2.1.1  # MySQL adapter
+# or
+# sqlite3  # Built-in for SQLite
+
+# Environment Management
+python-decouple==3.8.0  # For handling environment variables
+
+# If you are using Jupyter for notebooks
+ipykernel==6.21.0
